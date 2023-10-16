@@ -10,7 +10,6 @@ uproot
 pynput
 awkward
 keyboard
-pyqt5
 shapely
 curve
 pandas
@@ -18,3 +17,4 @@ openpyxl
 ipywidgets
 inquirer
 jupyter
+pyqt5
