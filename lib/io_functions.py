@@ -639,7 +639,7 @@ def npy2root(my_runs, debug = False):
     # Create the ROOT dataframe
     df = ROOT.RDF.FromNumpy(my_runs)
     return df
-/bin/thisroot.sh
+#/bin/thisroot.sh
 
     # Create the ROOT file
     f = ROOT.TFile.Open("test.root","RECREATE")
