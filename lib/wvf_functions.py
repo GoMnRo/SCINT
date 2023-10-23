@@ -9,7 +9,7 @@ from .ana_functions import generate_cut_array, get_units, get_wvf_label, shift_A
 #********************** AVERAGING FUCNTIONS ********************************#
 #===========================================================================# 
 
-def average_wvfs(my_runs, info, centering="NONE", key="", label="", threshold=0, cut_label="", OPT={}, debug=False):
+def average_wvfs(my_runs, info="", centering="NONE", key="", label="", threshold=0, cut_label="", OPT={}, debug=False):
     '''
     \nIt calculates the average waveform of a run. Select centering:
     \n- "NONE"      -> AveWvf: each event is added without centering.
