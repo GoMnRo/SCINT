@@ -27,3 +27,5 @@ from .fit_functions  import *
 from .dec_functions  import *
 
 from .fig_config import (add_grid, figure_features)  # <--- import customized functions
+from plotly.subplots import make_subplots
+
